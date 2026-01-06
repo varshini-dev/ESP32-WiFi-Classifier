@@ -8,7 +8,7 @@ The ESP32 scans nearby Wi-Fi networks, normalizes RSSI values, performs on-devic
 - Wi-Fi scanning using ESP32
 - RSSI normalization
 - TinyML inference (TensorFlow Lite Micro)
-- Human-readable signal strength labels
+- Readable signal strength labels
 - Optional web dashboard
 - Fully offline ML inference (edge AI)
 
@@ -27,7 +27,7 @@ The ESP32 scans nearby Wi-Fi networks, normalizes RSSI values, performs on-devic
 - TensorFlow Lite for Microcontrollers
 
 ## How to Run
-1. Open `firmware/esp32_tinyml_wifi_classifier.ino`
+1. Open `esp32_wifi_classifier.ino`
 2. Install ESP32 board support
 3. Upload to ESP32
 4. Open Serial Monitor (115200 baud)
